@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1ch;
+
+  color: blueviolet;
+  text-transform: uppercase;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 2ch;
+}
+
+nav a {
+  color: black;
+  text-decoration: wavy;
+}
+
+nav a:hover {
+  color: crimson;
+}
